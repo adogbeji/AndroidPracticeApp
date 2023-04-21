@@ -10,6 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="#EFEFEF"
+        android:text="1234567890"
+        android:textSize="30sp"
+        android:padding="10dp"
         />
 
 </LinearLayout>
