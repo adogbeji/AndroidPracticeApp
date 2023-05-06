@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onDigit(view: View) {
-        Toast.makeText(this, "Button Clicked", Toast.LENGTH_LONG)
+        Toast.makeText(this, "Button Clicked", Toast.LENGTH_LONG).show()
     }
 }
