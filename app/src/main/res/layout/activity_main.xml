@@ -30,7 +30,8 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:onClick="onDigit"
-            android:text="7" />
+            android:text="@string/_7"
+            tools:ignore="UsingOnClickInXml" />
 
         <Button
             android:id="@+id/btn8"
@@ -39,8 +40,8 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:onClick="onDigit"
-            android:text="8"
-            />
+            android:text="@string/_8"
+            tools:ignore="UsingOnClickInXml" />
 
         <Button
             android:id="@+id/btn9"
@@ -49,8 +50,8 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:onClick="onDigit"
-            android:text="9"
-            />
+            android:text="@string/_9"
+            tools:ignore="UsingOnClickInXml" />
 
         <Button
             android:id="@+id/btnDivide"
@@ -59,8 +60,8 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:onClick="onDigit"
-            android:text="/"
-            />
+            android:text="@string/_divide"
+            tools:ignore="UsingOnClickInXml" />
 
     </LinearLayout>
 
