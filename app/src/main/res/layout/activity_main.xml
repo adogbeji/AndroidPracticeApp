@@ -164,4 +164,43 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:text="@string/_0"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btnCLR"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:text="@string/_clr"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:text="@string/multiply"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
 </LinearLayout>
