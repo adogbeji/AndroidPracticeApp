@@ -16,4 +16,5 @@
     <string name="_0">0</string>
     <string name="_clr">CLR</string>
     <string name="multiply">*</string>
+    <string name="equal">=</string>
 </resources>
