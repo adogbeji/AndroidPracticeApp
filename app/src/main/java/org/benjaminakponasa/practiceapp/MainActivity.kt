@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onDigit(view: View) {
-        Toast.makeText(this, "Button Clicked", Toast.LENGTH_LONG).show()
+//        Toast.makeText(this, "Button Clicked", Toast.LENGTH_LONG).show()
+
+        resultOutput?.append("1")
     }
 }
