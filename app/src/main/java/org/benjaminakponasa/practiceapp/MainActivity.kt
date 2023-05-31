@@ -23,4 +23,8 @@ class MainActivity : AppCompatActivity() {
 
         resultOutput?.append((view as Button).text)
     }
+
+    fun onClear(view: View) {
+        resultOutput?.text = ""
+    }
 }
