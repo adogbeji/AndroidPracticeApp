@@ -10,6 +10,8 @@ import android.widget.Toast
 class MainActivity : AppCompatActivity() {
 
     private var resultOutput: TextView? = null
+    var lastNumeric: Boolean = false
+    var lastDot: Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,5 +28,13 @@ class MainActivity : AppCompatActivity() {
 
     fun onClear(view: View) {
         resultOutput?.text = ""
+    }
+
+    fun onDecimalPoint(view: View) {
+        if (lastNumeric && !lastDot) {
+            resultOutput?.append(".")
+            lastNumeric = false
+            lastDot = true
+        }
     }
 }
